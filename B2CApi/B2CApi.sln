@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B2CApi", "B2CApi\B2CApi.csproj", "{EF8FF763-D78D-49E4-B9CC-C772C4C3DE08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B2CApi", "B2CApi\B2CApi.csproj", "{EF8FF763-D78D-49E4-B9CC-C772C4C3DE08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLayer", "DataAccessLayer", "{B2EF0A3D-5B1D-45C6-89BC-D7C2FAE86E68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayerDapper", "DataAccessLayerDapper\DataAccessLayerDapper.csproj", "{7F38834A-4F62-4EF0-98BC-C733A6F2838A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{EF8FF763-D78D-49E4-B9CC-C772C4C3DE08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF8FF763-D78D-49E4-B9CC-C772C4C3DE08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF8FF763-D78D-49E4-B9CC-C772C4C3DE08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F38834A-4F62-4EF0-98BC-C733A6F2838A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F38834A-4F62-4EF0-98BC-C733A6F2838A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F38834A-4F62-4EF0-98BC-C733A6F2838A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F38834A-4F62-4EF0-98BC-C733A6F2838A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F38834A-4F62-4EF0-98BC-C733A6F2838A} = {B2EF0A3D-5B1D-45C6-89BC-D7C2FAE86E68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52A8765F-A923-42CC-BB4F-BA2B58E8E998}

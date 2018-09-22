@@ -14,10 +14,7 @@ namespace B2CApi.Controllers
         [HttpGet("{name}")]
         public string UserExists(string name)
         {
-            if (name != string.Empty)
-                return "User exist";
-            else
-                return "User is not exist";
+            return name != string.Empty ? "User exist" : "User is not exist";
         }
     }
 }
