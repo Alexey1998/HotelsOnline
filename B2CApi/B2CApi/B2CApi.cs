@@ -11,9 +11,9 @@ using Microsoft.Extensions.Options;
 
 namespace B2CApi
 {
-    public class Startup
+    public class B2CApi
     {
-        public Startup(IConfiguration configuration)
+        public B2CApi(IConfiguration configuration)
         {
             Configuration = configuration;
         }

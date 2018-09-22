@@ -19,7 +19,7 @@ namespace B2CApi
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>()
+                .UseStartup<B2CApi>()
                 .Build();
     }
 }
