@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B2CApi", "B2CApi\B2CApi.csp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLayer", "DataAccessLayer", "{B2EF0A3D-5B1D-45C6-89BC-D7C2FAE86E68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayerDapper", "DataAccessLayerDapper\DataAccessLayerDapper.csproj", "{7F38834A-4F62-4EF0-98BC-C733A6F2838A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayerDapper", "DataAccessLayerDapper\DataAccessLayerDapper.csproj", "{7F38834A-4F62-4EF0-98BC-C733A6F2838A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{E9449E27-8E0B-4917-AC8C-45831AF6E75C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B2CAgent", "B2CAgent\B2CAgent.csproj", "{83EC84FA-2A5F-471F-9C3F-11A1EF2F0C1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +27,17 @@ Global
 		{7F38834A-4F62-4EF0-98BC-C733A6F2838A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F38834A-4F62-4EF0-98BC-C733A6F2838A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F38834A-4F62-4EF0-98BC-C733A6F2838A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83EC84FA-2A5F-471F-9C3F-11A1EF2F0C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83EC84FA-2A5F-471F-9C3F-11A1EF2F0C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83EC84FA-2A5F-471F-9C3F-11A1EF2F0C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83EC84FA-2A5F-471F-9C3F-11A1EF2F0C1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7F38834A-4F62-4EF0-98BC-C733A6F2838A} = {B2EF0A3D-5B1D-45C6-89BC-D7C2FAE86E68}
+		{83EC84FA-2A5F-471F-9C3F-11A1EF2F0C1D} = {E9449E27-8E0B-4917-AC8C-45831AF6E75C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52A8765F-A923-42CC-BB4F-BA2B58E8E998}
