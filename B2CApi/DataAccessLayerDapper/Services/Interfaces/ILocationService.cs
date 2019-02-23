@@ -5,8 +5,8 @@ using DataAccessLayerDapper.Domain;
 
 namespace DataAccessLayerDapper.Services.Interfaces
 {
-    internal interface IClientService
+    internal interface ILocationService
     {
-        User GetUserById(int id);
+        IList<City> GetCitiesByName(string name);
     }
 }

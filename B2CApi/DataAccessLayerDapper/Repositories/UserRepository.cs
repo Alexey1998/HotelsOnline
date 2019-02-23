@@ -4,7 +4,7 @@ using DataAccessLayerDapper.Repositories.Interfaces;
 
 namespace DataAccessLayerDapper.Repositories
 {
-    public class UserRepository: BaseRepository, IUserRepository
+    internal class UserRepository: BaseRepository, IUserRepository
     {
         public UserRepository(SqlConnection connection) : base(connection)
         {

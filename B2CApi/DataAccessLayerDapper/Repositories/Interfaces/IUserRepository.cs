@@ -2,7 +2,7 @@
 
 namespace DataAccessLayerDapper.Repositories.Interfaces
 {
-    public interface IUserRepository
+    internal interface IUserRepository
     {
         /// <summary>
         /// Получить пользователя по Id

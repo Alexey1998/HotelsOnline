@@ -13,6 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{E9449E27-8E0B-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B2CAgent", "B2CAgent\B2CAgent.csproj", "{83EC84FA-2A5F-471F-9C3F-11A1EF2F0C1D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", "{AA076730-7F42-4247-8342-B9302092BCC6}"
+	ProjectSection(SolutionItems) = preProject
+		Locations_tables_up.sql = Locations_tables_up.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +43,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7F38834A-4F62-4EF0-98BC-C733A6F2838A} = {B2EF0A3D-5B1D-45C6-89BC-D7C2FAE86E68}
 		{83EC84FA-2A5F-471F-9C3F-11A1EF2F0C1D} = {E9449E27-8E0B-4917-AC8C-45831AF6E75C}
+		{AA076730-7F42-4247-8342-B9302092BCC6} = {B2EF0A3D-5B1D-45C6-89BC-D7C2FAE86E68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52A8765F-A923-42CC-BB4F-BA2B58E8E998}
