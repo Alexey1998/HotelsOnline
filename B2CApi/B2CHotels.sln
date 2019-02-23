@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayerDapper", "Da
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{E9449E27-8E0B-4917-AC8C-45831AF6E75C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B2CAgent", "B2CAgent\B2CAgent.csproj", "{83EC84FA-2A5F-471F-9C3F-11A1EF2F0C1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B2CAgent", "B2CAgent\B2CAgent.csproj", "{83EC84FA-2A5F-471F-9C3F-11A1EF2F0C1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
