@@ -7,19 +7,18 @@ using DataAccessLayerDapper.Services.Interfaces;
 
 namespace DataAccessLayerDapper.Services
 {
-    public class ClientService : IClientService
+    public class LocationService : ILocationService
     {
-        //TODO пока что он пуст
-        private static readonly string ConnectionString = String.Empty;
+        private static readonly string ConnectionString = System.Configuration.ConfigurationManager.
+            ConnectionStrings["Locations"].ConnectionString;
 
         public IConnectionFactory Factory = new ConnectionFactory();
-
-        public User GetUserById(int id)
+        public IList<City> GetCitiesByName(string name)
         {
             using (var connection = Factory.Create(ConnectionString))
             {
-                var userRepository = new UserRepository(connection);
-                return userRepository.GetUserById(id);
+                var repository = new CityRepository(connection);
+                return repository.GetCitiesByName(name);
             }
         }
     }

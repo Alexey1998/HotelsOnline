@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DataAccessLayerDapper.Repositories
 {
-    public class BaseRepository
+    internal class BaseRepository
     {
         public SqlConnection Connection;
 
